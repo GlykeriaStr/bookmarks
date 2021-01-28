@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/seanedwards/Makers/january/bookmarks/thursday/bookmarks/spec/bookmark_spec.rb": {
+      "/Users/glykeriastravodimou/MakersAcademy/Afternoon_challenges/bookmarks/spec/bookmark_spec.rb": {
         "lines": [
           1,
           1,
@@ -42,61 +42,17 @@
           1,
           1,
           1,
-          null,
           1,
           null,
           1,
           null,
           null,
           null,
-          null
-        ]
-      },
-      "/Users/seanedwards/Makers/january/bookmarks/thursday/bookmarks/spec/database_helpers.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/seanedwards/Makers/january/bookmarks/thursday/bookmarks/spec/feature/adding_bookmarks_spec.rb": {
-        "lines": [
           1,
           1,
           1,
           1,
           1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/seanedwards/Makers/january/bookmarks/thursday/bookmarks/spec/feature/bookmarks_page_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
           1,
           1,
           1,
@@ -105,7 +61,60 @@
           null
         ]
       },
-      "/Users/seanedwards/Makers/january/bookmarks/thursday/bookmarks/spec/feature/delete_a_bookmark_spec.rb": {
+      "/Users/glykeriastravodimou/MakersAcademy/Afternoon_challenges/bookmarks/spec/database_helpers.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/glykeriastravodimou/MakersAcademy/Afternoon_challenges/bookmarks/spec/feature/adding_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/glykeriastravodimou/MakersAcademy/Afternoon_challenges/bookmarks/spec/feature/bookmarks_page_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/glykeriastravodimou/MakersAcademy/Afternoon_challenges/bookmarks/spec/feature/delete_a_bookmark_spec.rb": {
         "lines": [
           1,
           1,
@@ -120,8 +129,30 @@
           null
         ]
       },
-      "/Users/seanedwards/Makers/january/bookmarks/thursday/bookmarks/spec/feature/simple_index_spec.rb": {
+      "/Users/glykeriastravodimou/MakersAcademy/Afternoon_challenges/bookmarks/spec/feature/simple_index_spec.rb": {
         "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/glykeriastravodimou/MakersAcademy/Afternoon_challenges/bookmarks/spec/feature/update_a_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
           1,
           1,
           1,
@@ -131,6 +162,6 @@
         ]
       }
     },
-    "timestamp": 1611847975
+    "timestamp": 1611853157
   }
 }

@@ -18,6 +18,12 @@ As a user
 So I can modify my bookmarks
 I want to be able to delete bookmarks I no longer want
 ```
+
+```
+As a user
+So I can update my bookmarks
+I want to be able to change my bookmark's details
+```
 Classes:
 Bookmark
 BookmarkManager (has list of Bookmarks).

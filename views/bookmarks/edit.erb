@@ -1,0 +1,7 @@
+Edit your bookmark:
+<form action="/bookmarks/<%= @bookmark_id %>" method="post">
+  <input type="hidden" name="_method" value="patch"/>
+  <input type="text" name="url"/>
+  <input type="text" name="title"/>
+  <input type="submit" value="Save"/>
+</form>
