@@ -1,8 +1,8 @@
 <h1> Here are your bookmarks: </h1>
 <ul>
   <% @bookmarks.each do |bookmark| %>
-  <li >
-    <a href='<%= bookmark.url %>'>
+  <li class="bookmark" id="bookmark-<%= bookmark.id %>">
+    <a href='<%= bookmark.url %>' target="_blank">
       <%= bookmark.title %>
     </a>
     <br>
@@ -11,7 +11,7 @@
       <input type="submit" value="Delete" >
     </form>
     <form action="/bookmarks/<%= bookmark.id %>/edit" method="get">
-      <input type="submit" value="Edit">
+      <input type="submit" value="Edit" />
     </form>
   </li>
   <%end%>

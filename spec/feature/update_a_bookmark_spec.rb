@@ -8,10 +8,12 @@ feature 'update a bookmark' do
     expect(page).to have_content 'Edit your bookmark:'
     expect(current_path).to eq "/bookmarks/#{bookmark.id}/edit"
 
-
     fill_in('url', with: 'http://www.bbc.co.uk')
     fill_in('title', with: 'BBC')
     click_button 'Save'
+    #I think we don't pass this test because it doesn't go into bookmarks
+    # our current path is the patch and not bookmarks
+    expect(current_path).to eq '/bookmarks'
     expect(page).not_to have_link('msn', href: 'http://www.msn.com')
     expect(page).to have_link('BBC', href: 'http://www.bbc.co.uk')
   end
