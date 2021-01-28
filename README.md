@@ -10,7 +10,13 @@ I want to see a list of bookmarks
 ```
 As a user
 So I can store bookmarks for later
-I want to be able to add bookmarks to the list 
+I want to be able to add bookmarks to the list
+```
+
+```
+As a user
+So I can modify my bookmarks
+I want to be able to delete bookmarks I no longer want
 ```
 Classes:
 Bookmark

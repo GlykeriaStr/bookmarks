@@ -34,4 +34,14 @@ describe Bookmark do
     end
   end
 
+  describe '.delete' do
+    it 'deletes a selected bookmark' do
+      bookmark = Bookmark.create(title: 'Twitter', url: 'http://www.twitter.com')
+
+      Bookmark.delete(id: bookmark.id)
+
+      expect(Bookmark.all.count).to eq 0
+    end
+  end
+
 end
