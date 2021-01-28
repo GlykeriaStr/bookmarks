@@ -3,6 +3,8 @@ require_relative "lib/bookmark"
 
 class BookmarkManager < Sinatra::Base
 
+  # enable :method_override we put this in the config.ru
+
   get '/' do
     erb :index
   end

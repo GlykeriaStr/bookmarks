@@ -5,6 +5,7 @@ feature 'delete a bookmark' do
     expect(page).to have_link("msn", href: "http://www.msn.com")
 
     click_button "Delete"
+    # expect(current_path).to eq('/bookmarks') makers extra test
     expect(page).not_to have_link("msn", href: "http://www.msn.com")
   end
 end
